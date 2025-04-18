@@ -11,7 +11,7 @@ const ProductDetail = ({ product }) => {
   
   const handleShoppingBagClick = () => {
     dispatch(addToCart(product));
-    alert('Carted')
+    alert('Item Carted')
   };
 
   return (
